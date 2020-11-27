@@ -1,7 +1,7 @@
 /*****************************************************************************
-* | Description :	Chaihuo Grove extension for micro:bit
-* | Developer   :   CH Makered
-* | More Info   :	http://chmakered.com/
+* | Description :	TinkerGen Grove extension for micro:bit
+* | Developer   :   TinkerGen
+* | More Info   :	http://TinkerGen.com/
 ******************************************************************************/
 enum GrovePin {
     //% block="P0"
@@ -148,6 +148,7 @@ namespace Grove {
         let distanceBackup = 0;
         let port: number = groveport;
 
+        pins.setPull(<DigitalPin>port, PinPullMode.PullNone);
         pins.digitalWritePin(<DigitalPin>port, 0);
         control.waitMicros(2);
         pins.digitalWritePin(<DigitalPin>port, 1);
