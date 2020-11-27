@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | Description :	TinkerGen Grove extension for micro:bit
-* | Developer   :   TinkerGen
+* | Developer   :   TinkerGen Inc.
 * | More Info   :	http://TinkerGen.com/
 ******************************************************************************/
 enum GrovePin {
