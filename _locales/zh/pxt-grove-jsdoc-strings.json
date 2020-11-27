@@ -1,0 +1,8 @@
+{
+    "Grove.grove_soundsensor": "获取 声音传感器 在指定Grove接口上的值, 值的范围是 0 到 1023 之间",
+    "Grove.grove_loudnesssensor": "获取 响度传感器 在指定Grove接口上的值, 值的范围是 0 到 1023 之间",
+    "Grove.grove_ultrasonic": "获取 超声波测距传感器 在指定Grove接口上的值, 测距范围是 2-350cm",
+    "Grove.grove_minifan": "设置 迷你风扇 的转速， 速度范围是 0 到 100%",
+    "Grove.grove_minifanOnOff": "打开或关闭 迷你风扇",
+    "Grove.grove_servo": "设置舵机的角度，角度范围是 0 到 180°"
+}
